@@ -1,0 +1,135 @@
+.frame_outer    {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgreen;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.box_ace_of_spades  {
+    position: relative;
+    background-color: white;
+    width: 150px;
+    height: 250px;
+    border-radius: 8%;
+}
+.spades_top_left    {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.spades_center  {
+    position: absolute;
+    font-size: xx-large;
+    top: 45%;
+    left: 45%;
+}
+.spades_bottom_right    {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    rotate: 180deg;
+}
+.box_ace_of_clubs  {
+    background-color: white;
+    width: 150px;
+    height: 250px;
+    border-radius: 8%;
+    position: relative;
+}
+.clubs_top_left    {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.clubs_center  {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: xx-large;
+}
+.clubs_bottom_right    {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    rotate: 180deg;
+}
+.box_ace_of_hearts  {
+    background-color: white;
+    color: red;
+    width: 150px;
+    height: 250px;
+    border-radius: 8%;
+    position: relative;
+}
+.hearts_top_left    {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.hearts_center  {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: xx-large;
+}
+.hearts_bottom_right    {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    rotate: 180deg;
+}
+.box_ace_of_diamonds  {
+    background-color: white;
+    color: red;
+    width: 150px;
+    height: 250px;
+    border-radius: 8%;
+    position: relative;
+}
+.diamonds_top_left    {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.diamonds_center  {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: xx-large;
+}
+.diamonds_bottom_right    {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    rotate: 180deg;
+}
+.box_joker  {
+    display: flex;
+    background-color: white;
+    width: 150px;
+    height: 250px;
+    border-radius: 8%;
+    justify-content: center;
+    align-items: center;
+}
+.box_ace_of_spades:hover    {
+    transform: translateY(-100px);
+}
+.box_ace_of_clubs:hover    {
+    transform: translateY(-100px);
+}
+.box_ace_of_hearts:hover    {
+    transform: translateY(-100px);
+}
+.box_ace_of_diamonds:hover    {
+    transform: translateY(-100px);
+}
+.box_joker:hover    {
+    transform: translateY(-100px);
+}
+
